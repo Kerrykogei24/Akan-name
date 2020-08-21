@@ -1,13 +1,22 @@
 .container{
-  background-color: red;
   line-height: 5em;
+  background-color:red;
 }
 p {
   font-size: xx-large;
-  color:whitesmoke;
   font-weight: bold;
 }
 h1{
   background-color: gray;
   font-style: italic;
 } 
+.test-box{
+  border-left: 4px solid red;
+  border-right: 4px solid blue;
+  border-top: 6px solid orange;
+  border-bottom: 8px solid black;
+  padding: 150px;
+  margin:20px;
+  float: right;
+  background-image: url(https://cdn.pixabay.com/photo/2017/03/09/23/39/ghana-2131205__340.jpg);
+}
