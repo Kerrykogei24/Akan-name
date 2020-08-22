@@ -41,28 +41,40 @@
             </div>
           <div class="col-md-3">
             <p>ENTER DETAILS:</p>
-          <div class="form-group">
-            <label for="year" class="labels">Year</label>
-            <input type="number" placeholder="Enter the year" class="form-control" id="year" required min="0" max="100">
-          </div>
-          <div class="form-group">
-            <label for="month" class="labels">Month</label>
-            <input type="number" class="form-control" placeholder="Enter the month of the year" id="month" required min="0" max="12">
-          </div>
-          <div class="form-group">
-            <label for="monthDay" class="labels">Day of month</label>
-            <input type="number" placeholder="Enter the day of the month" class="form-control" id="monthday" required min="0" max="12">
-          </div>
-          <form class="radio-button">
-            <input type="radio" class="genders labels" value="male" id="rad1" name="rads" required>Male
-            <input type="radio" class="genders labels" value="female" id="rad1" name="rads" required>Female
-          </form>
-          <br>
-          <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2" onclick="checkDayOfWeek();">Get Your Akan Name</button></a>
-          <h1 id="result"></h1>
+            <form name="myForm" class="form" onsubmit="validate();">
+              <div class="form-group">
+                <label for="number">Year of Birth:</label>
+                <input type="number" class="form-control" id="year" placeholder="Year of Birth Eg: 2019 if born in 2019" name="year">
+              </div>
+              <div class="form-group">
+                <label for="month">Month of Birth:</label>
+                <input type="number" class="form-control" id="month" placeholder="Month of Birth" name="month">
+              </div>
+              <div class="form-group">
+                <label for="date">Date of Birth:</label>
+                <input type="number" class="form-control" id="date" placeholder="Date of Birth eg 05 for May" name="date">
+              </div>
+              <div class="form-group">
+                <label for="month">Gender</label><br>
+                <div class="form-check-inline">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male 
+                  </label>
+                </div>
+                <div class="form-check-inline">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female 
+                  </label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary" onclick="findName();">Get Name</button>
+              <br>
+            </form>
+            <p id="results"> </p>
    </div>
    </div>
    </div>
+   <script src="javascript"></script>
 </body>
 
    <!-- // Page Wrapper-->
