@@ -1,5 +1,6 @@
 .container{
   line-height:3em;
+  color:green;
 }
 p {
   font-size: large;
@@ -10,7 +11,7 @@ ul li{
   line-height: 3em;
 }
 h1{
-  background-color: gray;
+  font-size: 50px;
   font-style: italic;
 } 
 .test-box{
@@ -28,10 +29,15 @@ h1{
   font-size: 20px;
   line-height: 5em;
   text-align: center;
+  color:red;
 }
 .footer .footer-content .location{
-  color: black;
+  color: red;
   text-align:center;
   padding-top: 20px;
   font-size: 30px;
+}
+button{
+  background-color:yellow;
+  
 }
