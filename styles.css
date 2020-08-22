@@ -1,15 +1,15 @@
 .container{
   line-height:3em;
-  color: green;
+  color:blue;
 }
 p {
   font-size: large;
   font-weight: bold;
-  line-height: 2em;
+  line-height: 3em;
 }
 ul li{
   line-height: 3em;
-  font-weight: 900;
+  font-weight: bolder;
   color:red;
 }
 .labels{
@@ -20,12 +20,18 @@ ul li{
 h1{
   font-size: 50px;
   font-style: italic;
+  text-align: center;
 } 
+h2{
+  font-size: 50px;
+  font-style: italic;
+  text-align: center;
+}
 body{
-  background-image: url(https://cdn.pixabay.com/photo/2017/08/23/19/30/ghana-2673975_960_720.png);
+  background-image: url(https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-color: gray;
+  background-size: cover;
 }
 
 .footer .footer-content .contact span{
