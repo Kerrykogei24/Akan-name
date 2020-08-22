@@ -1,6 +1,6 @@
 .container{
   line-height:3em;
-  color:green;
+  color: green;
 }
 p {
   font-size: large;
@@ -9,21 +9,25 @@ p {
 }
 ul li{
   line-height: 3em;
+  font-weight: 900;
+  color:red;
+}
+.labels{
+  font-weight: 900;
+  font-size: xx-large;
+  color: blue;
 }
 h1{
   font-size: 50px;
   font-style: italic;
 } 
-.test-box{
-  border-left: 4px solid red;
-  border-right: 4px solid blue;
-  border-top: 6px solid orange;
-  border-bottom: 4px solid black;
-  padding: 120px;
-  margin:20px;
-  float: right;
-  background-image: url(https://cdn.pixabay.com/photo/2017/03/09/23/39/ghana-2131205__340.jpg);
+body{
+  background-image: url(https://cdn.pixabay.com/photo/2017/08/23/19/30/ghana-2673975_960_720.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: gray;
 }
+
 .footer .footer-content .contact span{
   display: block;
   font-size: 20px;
@@ -39,5 +43,6 @@ h1{
 }
 button{
   background-color:yellow;
+  box-sizing: content-box;
   
 }
