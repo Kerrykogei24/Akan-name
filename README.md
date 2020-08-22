@@ -17,6 +17,14 @@ This web is where by the application takes the user's birthday & calculates the 
 
 *  Get into the website Here:- <https://github.com/LekamCharity/Akan-name
 
+## Technologies used
+* HTML
+
+* Bootsrap.css
+
+* Javascript
+
+
 ## Known Bugs
 * Some output are not as accurate as expected.
 
