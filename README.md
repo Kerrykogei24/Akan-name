@@ -20,9 +20,11 @@ This web is where by the application takes the user's birthday & calculates the 
 ## Technologies used
 * HTML
 
-* Bootsrap.css
+* Bootsrap
 
 * Javascript
+
+* CSS
 
 
 ## Known Bugs
