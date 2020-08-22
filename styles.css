@@ -1,14 +1,36 @@
 .container{
-  line-height: 4em;
+  line-height:3em;
 }
 p {
   font-size: small;
   font-weight: bold;
+  line-height: 2em;
+}
+ul li{
+  line-height: 2em;
 }
 h1{
   background-color: gray;
   font-style: italic;
 } 
+.form-group .top form{
+  float:right;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
 .test-box{
   border-left: 4px solid red;
   border-right: 4px solid blue;
