@@ -1,6 +1,6 @@
 .container{
   line-height:3em;
-  color:blue;
+  color:black;
 }
 p {
   font-size: large;
@@ -12,10 +12,10 @@ ul li{
   font-weight: bolder;
   color:red;
 }
-.labels{
-  font-weight: 900;
+.form-group{
+  font-weight: 9000;
   font-size: xx-large;
-  color: blue;
+  color:yellow;
 }
 h1{
   font-size: 50px;
@@ -28,7 +28,7 @@ h2{
   text-align: center;
 }
 body{
-  background-image: url(https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg);
+  background-image: url(./images/ghana-2131205__340.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
