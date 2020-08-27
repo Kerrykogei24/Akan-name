@@ -16,7 +16,8 @@ ul li{
 .form-group{
   font-weight: 9000;
   font-size: xx-large;
-  color:yellow;
+  color:black;
+  line-height: 2em;
 }
 h1{
   font-size: 50px;
@@ -29,7 +30,7 @@ h2{
   text-align: center;
 }
 body{
-  background-image: url(.);
+  background-image: url(./images/bbt.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
