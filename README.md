@@ -31,7 +31,7 @@ This web is where by the application takes the user's birthday & calculates the 
 * Some output are not as accurate as expected.
 
 ## Support and contact details
-Incase of any questions or any new ideas that can help me better this page kindly contact me on <lekamcharity@gmail.com .
+Incase of any questions or any new ideas that can help me better this page kindly contact me on <lekamcharity@gmail.com
 
 ### LICENSE
 <MIT License
