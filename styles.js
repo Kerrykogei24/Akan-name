@@ -6,7 +6,7 @@ var femaleNames = ["Akosua","Adwoa","Abenaa","Akua"," Yaa","Afua","Ama"];
 function validate() {
   var genders = document.getElementsByName("gender");
   if( document.myForm.year.value == "" || document.myForm.year.value.length !=4 || document.myForm.year.value >2100 || document.myForm.year.value <=1900) {
-     alert( "Please provide a valid year of birth! eg 2019" );
+     alert( "Please provide a valid year of birth! eg 2014" );
      document.myForm.year.focus() ;
      return false;
   }
@@ -38,7 +38,7 @@ function calculateDayValue(){
   YY = parseInt(year.substring(2,4));
   MM = parseInt(document.getElementById("month").value);
   DD = parseInt(document.getElementById("date").value);
-  d = ( ( (CC/4) -2*CC-1) + ( (5*YY/4) ) + ((26*(MM+1)/10) ) + DD)%7;
+  d = (((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) %7;
   console.log(d);
   return (Math.floor(d));
 }
