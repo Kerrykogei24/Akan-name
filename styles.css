@@ -1,16 +1,15 @@
 .container{
   line-height:3em;
-  color:green;
+  color:black;
 }
 p {
   font-size: 22px;
   font-weight: bold;
-  color: blue;
+  color:white;
 }
 ul li{
   line-height: 3em;
   font-weight: bolder;
-  color:red;
   font-size: 20px;
 }
 .form-group{
@@ -41,10 +40,10 @@ body{
   font-size: 20px;
   line-height: 5em;
   text-align: center;
-  color:yellowgreen;
+  color:black;
 }
 .footer .footer-content .location{
-  color:yellow;
+  color:black;
   text-align:center;
   padding-top: 20px;
   font-size: 30px;
