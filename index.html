@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <link rel="stylesheet" href="bootsrap.css/bootstrap-grid.css" type="text/css">
   <link rel="stylesheet" href="styles.css" type="text/css">
@@ -9,95 +10,98 @@
 </head>
 
 <body>
-   <div class="container">
-         <h1>Akan Names</h1>
-         <h2>Get Your Akan Name So Fast!!!!!</h2>
-          <p>In Ghana, children are given their first name as a day name so this web page is an application whereby the application
-            takes the user's birthday and calculates the day of the week they were born and depending on their gender, they get 
-            their Akan name.</p>
-          <p>Here are some Ghananian names;</p>
+  <div class="container">
+    <h1>Akan Names</h1>
+    <h2>Get Your Akan Name So Fast!!!!!</h2>
+    <p>In Ghana, children are given their first name as a day name so this web page is an application whereby the
+      application
+      takes the user's birthday and calculates the day of the week they were born and depending on their gender, they
+      get
+      their Akan name.</p>
+    <p>Here are some Ghananian names;</p>
 
-            <div class="row">
-              <div class="col-md-3">
-                <p>FEMALE:</p>
-                 <ul>
-                   <li>Sunday:Akosua</li>
-                   <li>Monday:Adwoa</li>
-                   <li>Tuesday:Abenaa</li>
-                   <li>Wednesday:Akua</li>
-                   <li>Thursday:Yaa</li>
-                   <li>Friday:Afua</li>
-                   <li>Saturday:Ama</li>
-                 </ul>
+    <div class="row">
+      <div class="col-md-3">
+        <p>FEMALE:</p>
+        <ul>
+          <li>Sunday:Akosua</li>
+          <li>Monday:Adwoa</li>
+          <li>Tuesday:Abenaa</li>
+          <li>Wednesday:Akua</li>
+          <li>Thursday:Yaa</li>
+          <li>Friday:Afua</li>
+          <li>Saturday:Ama</li>
+        </ul>
+      </div>
+
+      <div class="col-md-3">
+        <p>MALE:</p>
+        <ul>
+          <li>Sunday:Kwasi</li>
+          <li>Monday:Kwadwo</li>
+          <li>Tuesday:Kwabena</li>
+          <li>Wednesday:Kwaku</li>
+          <li>Thursday:Yaw</li>
+          <li>Friday:Kofi</li>
+          <li>Saturday:Kwame</li>
+        </ul>
+      </div>
+
+      <div class="col-md-3">
+        <p>WANT A NAME??</p>
+        <p>ENTER DETAILS:</p>
+        <form name="myForm" class="form" onsubmit="validate();">
+
+          <div class="form-group">
+            <label for="number">Year of Birth:</label>
+            <input type="number" class="form-control" id="year" placeholder="Year" name="year">
+          </div>
+
+          <div class="form-group">
+            <label for="month">Month of Birth:</label>
+            <input type="number" class="form-control" placeholder="month" id="month" name="month">
+          </div>
+
+          <div class="form-group">
+            <label for="date">Date of Birth:</label>
+            <input type="number" class="form-control" id="date" placeholder="Date" name="date">
+          </div>
+
+          <div class="form-group">
+            <label for="month">Gender</label><br>
+            <div class="form-check-inline">
+              <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male
+              </label>
             </div>
 
-              <div class="col-md-3">
-                <p>MALE:</p>
-                 <ul>
-                  <li>Sunday:Kwasi</li>
-                   <li>Monday:Kwadwo</li>
-                   <li>Tuesday:Kwabena</li>
-                   <li>Wednesday:Kwaku</li>
-                   <li>Thursday:Yaw</li>
-                   <li>Friday:Kofi</li>
-                   <li>Saturday:Kwame</li>
-                </ul>
+            <div class="form-check-inline">
+              <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female
+              </label>
             </div>
-            
-          <div class="col-md-3">
-            <p>WANT A NAME??</p>
-            <p>ENTER DETAILS:</p>
-            <form name="myForm" class="form" onsubmit="validate();">
+          </div>
 
-              <div class="form-group">
-                <label for="number">Year of Birth:</label>
-                <input type="number" class="form-control" id="year" placeholder="Year" name="year">
-              </div>
-
-              <div class="form-group">
-                <label for="month">Month of Birth:</label>
-                <input type="number" class="form-control" placeholder="month" id="month" name="month">
-              </div>
-
-              <div class="form-group">
-                <label for="date">Date of Birth:</label>
-                <input type="number" class="form-control" id="date" placeholder="Date" name="date">
-              </div>
-
-              <div class="form-group">
-                <label for="month">Gender</label><br>
-                <div class="form-check-inline">
-                  <label class="form-check-label">
-                    <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male 
-                  </label>
-                </div>
-
-                <div class="form-check-inline">
-                  <label class="form-check-label">
-                    <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female 
-                  </label>
-                </div>  
-              </div>
-
-              <button type="submit" class="btn btn-primary" onclick="findName();">Get A Name!</button>
-              <br>
-            </form>
-            <p id="results"> </p>
-   </div>
-   </div>
-   </div>
-   <script src="styles.js"></script>
+          <button type="submit" class="btn btn-primary" onclick="findName();">Get A Name!</button>
+          <br>
+        </form>
+        <p id="results"> </p>
+      </div>
+    </div>
+  </div>
+  <script src="styles.js"></script>
 </body>
 
-   <!-- // Page Wrapper-->
-  <div class="footer">
-    <div class="footer-content">
-            <div class="contact">
-                <span><i class="fas fa-envelope"></i> &nbsp;Tel no:0748198037 info@Akan-Name.com </span>
-            </div>
-            <div class="location">
-              <small>&copy;Copyright 2020 Akan Name. | Designed by Lekam Charity</small>
-          </div>
-     </div>  
-  </div> 
+<!-- // Page Wrapper-->
+<div class="footer">
+  <div class="footer-content">
+    <div class="contact">
+      <span><i class="fas fa-envelope"></i> &nbsp;Tel no:0748198037 info@Akan-Name.com </span>
+    </div>
+    <div class="location">
+      <small>&copy;Copyright 2020 Akan Name. | Designed by Lekam Charity</small>
+    </div>
+  </div>
+</div>
+
 </html>
