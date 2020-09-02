@@ -1,4 +1,4 @@
-<MIT LICENSE
+MIT LICENSE
 
 Copyright (c) 2020 LekamCharity
 
